@@ -10,7 +10,7 @@
 
     <groupId>sfg.udemy</groupId>
     <artifactId>spring-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -51,6 +51,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                     <checkModificationExcludes>
                         <checkModificationExclude>**/pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
@@ -63,6 +64,6 @@
     <scm>
         <url>https://github.com/arimarin/spring-pet-clinic</url>
         <developerConnection>scm:git:https://github.com/arimarin/spring-pet-clinic.git</developerConnection>
-        <tag>spring-pet-clinic-0.0.1</tag>
+        <tag>spring-pet-clinic-0.0.2</tag>
     </scm>
 </project>
