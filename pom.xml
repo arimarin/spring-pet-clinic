@@ -10,7 +10,7 @@
 
     <groupId>sfg.udemy</groupId>
     <artifactId>spring-pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -64,6 +64,6 @@
     <scm>
         <url>https://github.com/arimarin/spring-pet-clinic</url>
         <developerConnection>scm:git:https://github.com/arimarin/spring-pet-clinic.git</developerConnection>
-        <tag>spring-pet-clinic-0.0.2</tag>
+        <tag>spring-pet-clinic-0.0.1</tag>
     </scm>
 </project>
