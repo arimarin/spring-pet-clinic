@@ -62,7 +62,7 @@
 
     <scm>
         <url>https://github.com/arimarin/spring-pet-clinic</url>
-        <developerConnection>scm:git:git@github.com/arimarin/spring-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/arimarin/spring-pet-clinic.git</developerConnection>
         <tag>spring-pet-clinic-0.0.1</tag>
     </scm>
 </project>
